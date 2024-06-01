@@ -1,0 +1,87 @@
+header {
+  background-color: rgb(255, 255, 79);
+  font-family: var(--font-h1);
+  display: flex;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0%;
+}
+
+header h1 {
+  font-size: 180%;
+  padding: 10% 1% 10% 10%;
+}
+
+#iconInit {
+  border: black 2px solid;
+  padding: 0px 1.5% 0px 1.5%;
+}
+
+main h3 {
+  font-family: var(--font-h2);
+  color: beige;
+  padding: 3%;
+  padding-top: 10%;
+}
+
+main {
+  background-color: rgb(67, 66, 66);
+  width: 100vw;
+  height: 30vh;
+}
+
+main div {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+main div button {
+  padding: 2%;
+  font-family: var(--font-h2);
+  border: black solid 1px;
+  border-radius: 5%;
+}
+
+main div img {
+  height: 2vh;
+  width: 10vw;
+}
+
+section {
+  background-color: rgb(67, 66, 66);
+  height: 50vh;
+  width: 100vw;
+}
+
+.container-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10%;
+}
+
+section {
+  background-color: rgb(203, 203, 117);
+  border: 1px white solid;
+}
+
+section h2 {
+  font-family: var(--font-h2);
+  text-align: center;
+  margin-top: 3%;
+}
+
+footer {
+  background-color: rgb(67, 66, 66);
+  width: 100vw;
+  height: 5vh;
+  color: beige;
+  text-align: center;
+}
+
+footer h2 {
+  padding: 1%;
+}
